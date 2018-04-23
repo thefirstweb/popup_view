@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>popup demo</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div id="popup_demo" class="popup_layer hide">
+        <div class="popup_container">
+            <h4 class="popup_hd">
+                <a rel="nofollow" class="popup_close" href="javascript:void(0);"></a>
+            </h4>
+            <div class="popup_bd">
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    var popupView = new popup(document.querySelector('#popup_demo'));
+</script>
+
+</html>
